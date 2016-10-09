@@ -10,6 +10,8 @@ To use the Proxy server follow the commands:
 
 Note: 
 
-The server makes the request sent by client to "proxy.iiit.ac.in"
-If you want to make to the host directly then replace the line 177 in thread.cpp by 
+The server makes the request sent by client to "proxy.iiit.ac.in".
+
+If you want to make to the host directly then replace the line 177 in thread.cpp by
+
 	"if ((rv = getaddrinfo(hostname, "80", &hints, &servinfo)) != 0)"
